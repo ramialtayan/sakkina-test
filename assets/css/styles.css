@@ -386,9 +386,13 @@ body.rtl {
   overflow: hidden;
   border: 1px solid #d7eadf;
   background: #fff;
-  padding: 12px;
+  padding: 14px;
   box-shadow: 0 10px 24px rgba(16, 36, 20, 0.07);
-  transition: 0.2s ease;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* يخلي المنتج واقف على نفس الخط */
+}
 }
 
 .gallery-item:hover {
