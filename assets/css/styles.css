@@ -559,16 +559,18 @@ body.rtl .nav-links a {
 /* ==== VIDEO SECTION FIX ==== */
 
 .product-video{
-  width: 100%;
-  max-width: 420px;      /* ← يصغر الفيديو */
-  height: auto;
+  width: auto;              /* مو 100% */
+  height: 60vh;             /* يتحكم بالارتفاع حسب الشاشة */
+  max-height: 500px;        /* ما يكبر كثير */
   border-radius: 14px;
   background: #000;
+  object-fit: contain;      /* يبين الفيديو كامل */
   box-shadow: 0 15px 40px rgba(0,0,0,0.25);
-  object-fit: contain;   /* ← أهم سطر: يبين الفيديو كامل */
   border: 6px solid white;
 }
 .video-wrapper{
   display: flex;
   justify-content: center;
+  margin-top: 10px;
+
 }
