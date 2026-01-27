@@ -556,15 +556,17 @@ body.rtl .nav-links a {
   text-align: center;
 }
 
+
 .video-wrapper{
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .product-video{
-  width: 50%;           /* نص الحجم */
-  max-width: 500px;     /* ما يكبر على شاشات كبيرة */
-  height: auto;
+  width: 100%;
+  max-width: 900px;
   border-radius: 12px;
-  background: #000;
+  transform: scale(0.75);   /* ← يصغّر الفيديو */
+  transform-origin: center; /* يخليه بالنص */
 }
