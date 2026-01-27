@@ -555,3 +555,12 @@ body.rtl .nav-links {
 body.rtl .nav-links a {
   text-align: center;
 }
+/* Product video styling */
+.product-video {
+  width: 100%;
+  border-radius: 12px;
+}
+.video-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
