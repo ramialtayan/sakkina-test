@@ -558,19 +558,17 @@ body.rtl .nav-links a {
 
 /* ==== VIDEO SECTION FIX ==== */
 
-.video-wrapper{
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
 .product-video{
   width: 100%;
-  max-width: 600px;   /* ← الحجم المثالي */
-  aspect-ratio: 9 / 16; /* لأن الفيديو عمودي */
+  max-width: 420px;      /* ← يصغر الفيديو */
+  height: auto;
   border-radius: 14px;
   background: #000;
   box-shadow: 0 15px 40px rgba(0,0,0,0.25);
-  object-fit: cover;
-  border: 6px solid white; 
+  object-fit: contain;   /* ← أهم سطر: يبين الفيديو كامل */
+  border: 6px solid white;
+}
+.video-wrapper{
+  display: flex;
+  justify-content: center;
 }
