@@ -564,8 +564,8 @@ body.rtl .nav-links a {
 }
 
 .product-video{
-  width: 100%;
-  max-width: 900px;
+  width: 50%;
+  max-width: 200px;
   border-radius: 12px;
   transform: scale(0.75);   /* ← يصغّر الفيديو */
   transform-origin: center; /* يخليه بالنص */
