@@ -555,14 +555,10 @@ body.rtl .nav-links {
 body.rtl .nav-links a {
   text-align: center;
 }
-.video-wrapper {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.product-video {
+.product-video{
   width: 100%;
-  max-height: 500px;   /* ← هذا أهم سطر */
+  height: 420px;
   border-radius: 12px;
-  object-fit: cover;
+  object-fit: cover;    /* يملأ الصندوق بس يقص */
+  background: #000;
 }
