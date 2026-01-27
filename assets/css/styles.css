@@ -560,7 +560,7 @@ body.rtl .nav-links a {
 
 .product-video{
   width: auto;              /* مو 100% */
-  height: 55vh;             /* يتحكم بالارتفاع حسب الشاشة */
+  height: 60vh;             /* يتحكم بالارتفاع حسب الشاشة */
   max-height: 500px;        /* ما يكبر كثير */
   border-radius: 14px;
   background: #000;
